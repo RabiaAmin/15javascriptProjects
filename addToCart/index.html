@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AddToCart</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+</head>
+<body>
+
+    <div class="main">
+        <div id="items">
+            <div class="items-header">
+                <h1>shopping cart</h1>
+                 <p><span id="items-count">3</span>items</p>
+            </div>
+            <div id="items-card">
+
+            </div>
+            <div class="back-to-shop">
+                <i class="ri-arrow-left-line"></i>
+                <p>back to shop</p>
+            </div>
+        </div>
+        <div id="items-summary">
+            <h1>Summary</h1>
+            <hr>
+            <div class="summary-body">
+                <div class="items-count">
+                    <p><span id="items-count2">3</span>items</p>
+                    <p >$ <span id="total-price-without-DC">39.00</span></p>
+    
+                </div>
+                <div class="shippment">
+                    <h3>Shipping</h3>
+                    <div class="shipping-methods-dropdown">
+                        <div class="select">
+                            <span class="selected">Cash On Delivery </span>
+                            <div class="caret"></div>
+                        </div>
+                        
+                        <ul class="menu">
+                            <li class="active">Cash On Delivery</li>
+                            <li>Online Payment</li>
+                            
+                        </ul>
+                    </div>
+
+                </div>
+                <p class="dc">200 DC all over the pakistan</p>
+                <div class="discount-code">
+                    <h3>Coupon code</h3>
+                    <div class="dis-code">
+                        <input type="text" placeholder="code">
+                        <i class="ri-arrow-right-line"></i>
+                    </div>
+                    
+                </div>
+            </div>
+            <hr>
+            <div class="summary-price">
+                <h3>Total Price</h3>
+                <p >$ <span id="total-price-with-dc">39.00</span></p>
+
+            </div>
+            <div class="checkout-btn">Checkout</div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
